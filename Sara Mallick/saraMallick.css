@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Navigation Menu */
+#web-menu {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#web-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#web-menu li {
+    display: inline;
+    padding: 100px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*Projects Page */
+.content-wrapper {
+    background-color: #FAFAFA;
+    margin: 50px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    height: auto;
+}
+
+.content-wrapper p {
+    text-align: left;
+    margin: 10px;
+}
+
+.content-wrapper a {
+    text-decoration: none;
+    color: rgb(170, 52, 52);
+}
+
+.content-wrapper h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.img-container {
+    width: 100%;
+    height: 150px;
+}
+
+.lang-wrapper {
+    color: rgb(170, 52, 52);
+}
+
+.text-content {
+    width: 250px;
+    height: auto;
+}
